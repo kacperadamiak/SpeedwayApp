@@ -1,0 +1,144 @@
+body {
+  background-color: #eeeeee;
+  
+}
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#title {
+  padding: 10px;
+  background-color:white ;
+  border: 1px solid rgb(182, 182, 182);
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#teams {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(182, 182, 182);
+  padding: 10px;
+  color: white;
+  background-color:  rgb(224, 218, 214);
+  -webkit-text-stroke: 1px rgb(0, 0, 0); 
+}
+
+
+
+.menu {
+  display: flex;
+  background-color: #ddd;
+  
+  font-weight: bold;
+  justify-content: space-between;
+  border-top: 1px solid rgb(182, 182, 182);
+  border-bottom: 1px solid rgb(182, 182, 182);
+  margin-bottom: 20px ;
+}
+
+.option {
+  flex: 1;
+  text-align: center;
+  color: rgb(0, 0, 167);
+  padding: 10px; 
+}
+
+.option:first-child {
+  border-left: 1px solid rgb(182, 182, 182);
+  border-right: 1px solid rgb(182, 182, 182);
+}
+
+.option:last-child {
+  border-right: 1px solid rgb(182, 182, 182);
+  border-left: 1px solid rgb(182, 182, 182);
+}
+
+
+#input{
+  margin-bottom: 80px;
+}
+
+.custom-form {
+  width: 100%; 
+  
+}
+
+.custom-input {
+  width: 85%; 
+  float: left; 
+  padding: 5px;
+  border: 1px solid rgb(182, 182, 182);
+
+}
+
+
+.custom-button {
+  color: white;
+  padding: 5px;
+  width: 13%; 
+  margin-left: 2%; 
+  float: left; 
+  border: 1px solid rgb(182, 182, 182);
+  background-color: gray ;
+}
+
+
+.shorten {
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  max-width: 50px; 
+}
+
+
+
+#topbar {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid rgb(182, 182, 182);
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+table {
+  width: 100%;
+}
+#footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+  border: 1px solid rgb(182, 182, 182);
+}
+
+table.custom-table th, table.custom-table td {
+  border: 1px solid rgb(182, 182, 182);
+  padding: 5px; 
+  color: black;
+}
+#content {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.gray-row{
+  background-color: gray;
+  
+}
+
+.results{
+  
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+
+
+
+
